@@ -1,0 +1,9 @@
+"use strict";
+const a = "Hello";
+const b = a;
+// const c = a as Three;
+const c = a;
+console.log(c);
+// const beforeAfter = { userUUID: 0 } as unknown as B;
+const beforeAfter = { userUUID: 0 };
+console.log(beforeAfter);
