@@ -13,6 +13,9 @@ type A = { id: number };
 type B = { uuid: number };
 
 // const beforeAfter = { userUUID: 0 } as unknown as B;
-const beforeAfter = <B><unknown>{ userUUID: 0 };
+const beforeAfter = <B>(<unknown>{ userUUID: 0 });
 
 console.log(beforeAfter);
+
+const img = document.getElementById("img") as HTMLImageElement;
+const img2 = document.querySelector("img")!;

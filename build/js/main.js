@@ -7,3 +7,5 @@ console.log(c);
 // const beforeAfter = { userUUID: 0 } as unknown as B;
 const beforeAfter = { userUUID: 0 };
 console.log(beforeAfter);
+const img = document.getElementById("img");
+const img2 = document.querySelector("img");
